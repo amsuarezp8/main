@@ -1,3 +1,3 @@
 # Angela Suárez
 Personal website :)
-https://amsuarezp8.github.io/
+https://amsuarezp8.github.io/main/
