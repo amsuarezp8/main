@@ -16,17 +16,6 @@
 </head>
 
 <body>
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
-            width: 100%;
-        }
-
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
     <!--===== HEADER =====-->
     <header class="l-header-as">
         <nav class="nav-as bd-grid-as">
@@ -48,9 +37,6 @@
                     <li class="nav__item-as">
                         <a href="#projects" class="nav__link-as">Projects</a>
                     </li>
-                    <li class="nav__item-as">
-                        <a href="#contact" class="nav__link-as">Contact</a>
-                    </li>
                 </ul>
             </div>
 
@@ -62,45 +48,36 @@
 
     <main class="l-main-as">
         <!--===== HOME =====-->
-        <section class="home-as bd-grid-as" id="home">
-            <div class="home__data-as">
-                <h1 class="home__title-as">
-                    Hi,<br />I'am <span class="home__title-color-as">Angela</span><br />
-                </h1>
-                <a href="assets/img/cv_amsuarezp.pdf" class="button-as" download="amsuarezp_cv">Download CV</a>
+        <section class="home-as grid-home" id="home">
+            <div style="text-align:right;color:#1d374b;">
+              <h1>Hello, I'am Angela</h1>
+              <h1>Software Engineer</h1>
             </div>
-
-            <div class="home__social-as">
-                <a href="https://www.linkedin.com/in/angela-mar%C3%ADa-su%C3%A1rez-parra-048560187/" target="_blank" class="home__social-icon-as"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/amsuarezp18" target="_blank" class="home__social-icon-as"><i class='bx bxl-github'></i></a>
+            <div>
+              <img src="/assets/img/compu.gif" alt="computador GIF" width="100%">
             </div>
-
-            <div class="home__img-as">
-                <img src="assets/img/perfil.png" alt="" />
-            </div>
+          
         </section>
+
+        <!--<section class="home-as bd-grid-as" id="home">
+            <div class="about__container-as">
+              <div>
+               hola
+              </div>
+              <div><img src="/assets/img/compu.gif" alt="computador GIF" width="100%"></div>
+            </div>
+        </section>-->
 
         <!--===== ABOUT =====-->
-        <section class="section-as" id="about">
-            <h2 class="section-title-as">About</h2>
-
-            <div class="about__container-as bd-grid-as">
-                <div class="about__img-as">
-                    <img src="assets/img/perfil.png" alt="" />
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle-as">I'am Angela, Software Engineer</h2>
-                    <p class="about__text-as">
-                        I am an undergraduate student in Systems and Computing Engineering at Universidad de Los Andes, Bogotá.
-                    </br> (Expected graduation Sept 2021).
-                    </br>
-                    I’m currently learning about Data Science and Android.
-                           
-                    </p>
-                </div>
+        <!--<section class="section-as bd-grid-as-description" id="about">
+            <div class="about__container-as">
+              <div> <img src="/assets/img/static.svg" alt="funny GIF" height="100px" width="100%"> </div>
             </div>
-        </section>
+        </section>-->
+
+
+
+
 
         
          <!-- Timeline -->
@@ -232,9 +209,12 @@
         
       </div>
 
-        <section class="section-as" id="skills">
+      <section class="section-as" id="skills">
             <h2 class="section-title-as">Technical Skills</h2>
             <div class="skill__container-as bd-grid-as">
+                <div class="skills__img-as">
+                  <img src="/assets/img/search.gif" alt="funny GIF" width="100%">
+                </div>  
                 <div>   
                     <div class="nosep-as">
                     <span class="skill__name-as" style="background:#f9d5ff;color:#4871fb">JavaScript</span>
@@ -261,16 +241,14 @@
                     </div>
                      
                 </div>
-                <div class="skills__img-as">
-                    <img src="assets/img/tools.png" alt="tool-img" />
-                </div>      
+                    
 
             </div>
-        </section>
+      </section>
 
-        <section class="projects-as section-as" id="projects">
-            <h2 class="section-title-as">Personal Projects</h2>
-            <div class="projects__container-as bd-grid-as">
+      <section class="projects-as section-as" id="projects">
+          <h2 class="section-title-as">Personal Projects</h2>
+          <div class="projects__container-as bd-grid-as">
                 <div class="project__img_f">
                     <div class="center-proj">    
                         <div>
@@ -294,18 +272,15 @@
                 <div class="project__img_t">
                     <div class="center-proj">    
                         <div>
-                            <h3 class="projects-text">Tesis</h3>
+                            <h3 class="projects-text">VISIR</h3>
                         </div>
                         <div class="arrow-project">
                             <a href="projects.html" class="button-as" >See more</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        
-
+          </div>
+      </section>
     </main>
 
     <!--===== FOOTER =====-->
