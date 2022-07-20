@@ -125,7 +125,7 @@ img{
 }
 
 .bd-grid-as-description {
-  background: url("/assets/img/tour-s-path.svg");
+  background: url("/main/assets/img/tour-s-path.svg");
   background-size: cover;
   height: 70vh;
   width: 100%;
