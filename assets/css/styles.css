@@ -125,10 +125,8 @@ img{
 }
 
 .bd-grid-as-description {
-  background: url("/assets/img/tour-s-path.svg") 50% no-repeat;
+  background: url("/assets/img/tour-s-path.svg");
   background-size: cover;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   height: 70vh;
   width: 100%;
   position: relative;
