@@ -327,6 +327,8 @@ img{
 }
 .button-as:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  color: #fff;
+  text-decoration: none;
 }
 
 .button-demo-as{
