@@ -156,7 +156,7 @@ img{
     rgba(3,114,218,0.5),
     rgba(211, 227, 253, 1)
     ),
-    url("/assets/img/work2.jpg");
+    url("main/assets/img/work2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
@@ -170,7 +170,7 @@ img{
     rgba(3,114,218,0.5),
       rgba(211, 227, 253, 1)
     ),
-    url("/assets/img/work6.jpg");
+    url("main/assets/img/work6.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
@@ -193,7 +193,7 @@ img{
       rgba(3,114,218,0.5),
       rgba(211, 227, 253, 1)
     ),
-    url("/assets/img/work4.jpg");
+    url("main/assets/img/work4.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
