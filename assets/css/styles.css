@@ -143,6 +143,12 @@ img{
 
 .grid-home{
   display: grid;
+  align-items: center;
+}
+
+.text-c{
+  text-align:center;
+  margin-top: 4rem;
 }
 
 .project__img_s {
@@ -498,8 +504,12 @@ img{
 
   .grid-home{
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
     width: 1200px;
+  }
+
+  .text-c{
+    text-align:right;
+    margin: 0px;
   }
 
   .work__container-as {
